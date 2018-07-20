@@ -1,0 +1,38 @@
+PODS:
+  - FMDB (2.5):
+    - FMDB/standard (= 2.5)
+  - FMDB/common (2.5)
+  - FMDB/SQLCipher (2.5):
+    - FMDB/common
+    - SQLCipher
+  - FMDB/standard (2.5):
+    - FMDB/common
+  - LKDBHelper (2.5.1):
+    - LKDBHelper/standard (= 2.5.1)
+  - LKDBHelper/standard (2.5.1):
+    - FMDB
+  - SQLCipher (3.4.2):
+    - SQLCipher/standard (= 3.4.2)
+  - SQLCipher/common (3.4.2)
+  - SQLCipher/standard (3.4.2):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - FMDB/common
+  - FMDB/SQLCipher
+  - LKDBHelper
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FMDB
+    - LKDBHelper
+    - SQLCipher
+
+SPEC CHECKSUMS:
+  FMDB: 96e8f1bcc1329e269330f99770ad4285d9003e52
+  LKDBHelper: 9a276ba51f2e16263d46a9517e16cc9b03472664
+  SQLCipher: f9fcf29b2e59ced7defc2a2bdd0ebe79b40d4990
+
+PODFILE CHECKSUM: 82aa99d4818001bc6cb70ff249545dcfe503e534
+
+COCOAPODS: 1.5.3
